@@ -1,7 +1,7 @@
 # pyinstaller
 
 ## What is pyinstaller
-`python`이 없는 환경에서 `python` 기반으로 개발된 프로그램을 실행시키려고 할 때, 선택지가 몇가지 있는데, 그 중 하나가 `pyinstaller`이다. `pyinstaller`는 `python`이 없는 환경에서도 python 기반 프로그램이 실행시킬 수 있도록 exe 파일을 생성해주는 라이브러리이다.
+`python`이 없는 환경에서 `python` 기반으로 개발된 프로그램을 실행시키려고 할 때, 선택지가 몇가지 있는데, 그 중 하나가 `pyinstaller`이다. `pyinstaller`는 `python`이 없는 환경에서도 `python` 기반 프로그램이 실행시킬 수 있도록 `exe` 파일을 생성해주는 라이브러리이다.
 
 ## How to use?
 
