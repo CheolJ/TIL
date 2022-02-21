@@ -9,6 +9,8 @@
   * [Numpy APIs]()
 * Matplotlib
   * [How to Draw]()
+* Pyinstaller
+  * [How to use](https://github.com/CheolJ/TIL/blob/main/Python/pyinstaller.md)
   
 ## Machine-Learning
   * [SVM]()
