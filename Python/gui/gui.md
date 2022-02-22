@@ -8,9 +8,16 @@
 ## tkinter
 파이썬의 기본 라이브러리 중 하나로, 쉬운 사용법이 장점이다.
 
-`tkinter`은 `나도코딩`님의 [여러 이미지 합치기 프로그램](https://www.youtube.com/watch?v=bKPIcoou9N8&t=3835s&ab_channel=%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9)을 팔오우업 했다. 이 외에 추가적인 내용들은 찾아보면서 `markdown`형태로 정리하였다.
+`tkinter`은 `나도코딩`님의 [여러 이미지 합치기 프로그램](https://www.youtube.com/watch?v=bKPIcoou9N8&t=3835s&ab_channel=%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9)을 팔로우업 했다. 이 외에 추가적인 내용들은 찾아보면서 `markdown`형태로 정리하였다. 팔로우업을 통해 tkinter 사용법과 기본적이 gui 구성을 익힌다.
+
+*  Image Merger
+   * codes
+      *  [1_create_frame.py]()
+      *  [2_button.py]()
+      *  [3_label.py]()
+      *  [4_text_entry.py]()
+    * wikis
+      * [Basic]()
 
 ## pyqt5
-
-
 `pyqt5`은 python을 통해 다양한 주식매매 프로그램을 만들[수 있는 방법을 제공하는 [파이썬을 이용한 비트코인 자동매매](](https://wikidocs.net/book/1665)) wiki를 참고하였다. 팔로우업을 통해, pyqt5를 활용한 실시간 그래프 작성을 목표로 한다.
