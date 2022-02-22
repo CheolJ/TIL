@@ -13,8 +13,9 @@
   * [How to use](https://github.com/CheolJ/TIL/blob/main/Python/pyinstaller.md)
 
 * GUI
+  * [gui](https://github.com/CheolJ/TIL/blob/main/Python/gui/gui.md)
   * tkinter
-    * [tkinter - readme](https://github.com/CheolJ/TIL/blob/main/Python/gui/gui.md)
+    * [Basic]()
     * 
   
 ## Machine-Learning
