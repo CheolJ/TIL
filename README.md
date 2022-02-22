@@ -13,7 +13,7 @@
   * [How to use](https://github.com/CheolJ/TIL/blob/main/Python/pyinstaller.md)
 
 * GUI
-  * [gui](https://github.com/CheolJ/TIL/blob/main/Python/gui/gui.md)
+  * [gui-how i studied making gui with python](https://github.com/CheolJ/TIL/blob/main/Python/gui/gui.md)
   * tkinter
     * [Basic]()
     * 
