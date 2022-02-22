@@ -13,3 +13,6 @@
 * C++
 * Kubeernetis
 * Markdown
+* pyqt5
+    * [Pyqt - readme]()
+    * 
