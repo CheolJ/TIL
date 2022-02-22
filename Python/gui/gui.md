@@ -12,7 +12,6 @@
 
 *  Image Merger
    * codes
-      *  [1_create_frame.py]()
       *  [2_button.py]()
       *  [3_label.py]()
       *  [4_text_entry.py]()
