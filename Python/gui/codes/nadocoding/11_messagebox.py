@@ -22,9 +22,12 @@ def okcancel():
     msgbox.askokcancel("확인 / 취소", "해당좌석은 유아동반석입니다. 예매하시겠습니까?" )
 
 
-def retry():
-    msgbox.askretrycancel("확인 / 취소", "해당좌석은 유아동반석입니다. 예매하시겠습니까?" )
-
+def retrycancel():
+    response = msgbox.askretrycancel("재시도 / 취소", "일시적인 오류입니다. 다시 시도하겠습니까?" )
+    if response == 1:
+        print("재시도")
+    elif response == 0 :
+        print("취소")
 
 def yesno():
     msgbox.askyesno("예 / 아니오", "해당 좌석은 역방향입니다. 예매하시겠습니까?")
@@ -38,8 +41,10 @@ def yesnocancel():
     print("응답 :", response)
     if response == 1:
         print("예")
+        
     elif response == 0:
         print("아니오")
+        
     else:
         print("취소")
 
@@ -48,7 +53,7 @@ Button(root, command=warn, text="경고").pack()
 Button(root, command=error, text="경고").pack()
 
 Button(root, command=okcancel, text="확인 취소").pack()
-Button(root, command=retry, text="재시도 취소").pack()
+Button(root, command=retrycancel, text="재시도 취소").pack()
 Button(root, command=yesno, text="예 아니오").pack()
 Button(root, command=yesnocancel, text="예 아니오 취소").pack()
 
