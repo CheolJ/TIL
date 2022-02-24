@@ -9,17 +9,21 @@
 from tkinter import *
 
 root = Tk()
-root.title("제목없음 - windows 메모장")
+root.title("Nado GUI")
 root.geometry("640x480")
 
 menu = Menu(root)
 
 menu_file = Menu(menu, tearoff=0)
-menu_file.add_command(label="열기")
-menu_file.add_command(label="저장")
+# tearoff : 하위 메뉴의 분리 기능 사용 유무를 나타내는 옵션
+
+# default : False.
+menu_file.add_command(label='열기')
+menu_file.add_command(label='저장')
 menu_file.add_separator()
-menu.file_add_command(label="끝내기", command=root.quit)
-menu.add_cascade(label="파일", menu=menu_file)
+menu_file.add_command(label="끝내기", command=root.quit)
+menu.add_cascade(label="파일메뉴", menu=menu_file)
+
 
 root.config(menu=menu)
 root.mainloop()
