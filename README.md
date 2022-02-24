@@ -15,8 +15,7 @@
 * GUI
   * [gui-how i studied making gui with python](https://github.com/CheolJ/TIL/blob/main/Python/gui/gui.md)
   * tkinter
-    * [Basic]()
-    * 
+    * [menu](https://github.com/CheolJ/TIL/blob/main/Python/gui/wiki/menu.md)
   
 ## Machine-Learning
   * [SVM]()
