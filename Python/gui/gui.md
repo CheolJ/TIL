@@ -12,24 +12,25 @@
 
 * Basic
   * codes
-    *  [01_create_frame.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/01_create_frame.py)
-    *  [02_button.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/02_button.py)
-    *  [03_label.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/03_label.py)
-    *  [04_text_entry.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/04_text_entry.py)
-    *  [05_listbox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/05_listbox.py)
-    *  [06_checkbox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/06_checkbox.py)
-    *  [07_radiobutton.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/07_radiobutton.py)
-    *  [08_combobox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/08_combobox.py)
-    *  [09_progressbar.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/09_progressbar.py)
-    *  [10_menu.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/10_menu.py)
-    *  [11_messagebox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/11_messagebox.py)
-    *  [12_frame.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/12_frame.py)
-    *  [13_scrollbar.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/13_scrollbar.py)
-    *  [14_grid.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/14_grid.py)
-    *  [15_quiz.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/codes/nadocoding/15_quiz.py)
+    *  [01_create_frame.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/01_create_frame.py)
+    *  [02_button.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/02_button.py)
+    *  [03_label.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/03_label.py)
+    *  [04_text_entry.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/04_text_entry.py)
+    *  [05_listbox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/05_listbox.py)
+    *  [06_checkbox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/06_checkbox.py)
+    *  [07_radiobutton.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/07_radiobutton.py)
+    *  [08_combobox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/08_combobox.py)
+    *  [09_progressbar.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/09_progressbar.py)
+    *  [10_menu.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/10_menu.py)
+    *  [11_messagebox.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/11_messagebox.py)
+    *  [12_frame.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/12_frame.py)
+    *  [13_scrollbar.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/13_scrollbar.py)
+    *  [14_grid.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/14_grid.py)
+    *  [15_quiz.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/nadocoding/15_quiz.py)
 
   * wikis
     * [something]()
+    * [menu](https://github.com/CheolJ/TIL/blob/main/Python/gui/wiki/menu.md)
 
 * Image Merger
   * codes
