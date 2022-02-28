@@ -7,8 +7,13 @@
   * [Broadcasting]()
   * [Indexing and Slicing]()
   * [Numpy APIs]()
+
 * Matplotlib
   * [How to Draw]()
+
+* Plotly
+  * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
+
 * Pyinstaller
   * [How to use](https://github.com/CheolJ/TIL/blob/main/Python/pyinstaller.md)
 
