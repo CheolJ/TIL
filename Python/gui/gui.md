@@ -26,12 +26,15 @@
     *  [12_frame.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/tkinter/12_frame.py)
     *  [13_scrollbar.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/tkinter/13_scrollbar.py)
     *  [14_grid.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/tkinter/14_grid.py)
-    *  [15_quiz.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/tkinter/15_quiz.py)
+
 
   * wikis
     * [something]()
     * [menu](https://github.com/CheolJ/TIL/blob/main/Python/gui/wiki/menu.md)
 
+* Notepad
+    *  [15_quiz.py](https://github.com/CheolJ/TIL/blob/main/Python/gui/code/tkinter/15_quiz.py)
+    
 * Image Merger
   * codes
     * [something]()
