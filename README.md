@@ -10,6 +10,7 @@
 
 * Matplotlib
   * [anatomy of figure](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/anatomy_of_figure.md)
+  * [figure and axes](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/figureandaxes.md)
 
 * Plotly
   * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
