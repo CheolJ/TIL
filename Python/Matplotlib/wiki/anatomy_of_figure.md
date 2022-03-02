@@ -29,3 +29,6 @@
 ## Legend
 - axes에 그려진 그래프들의 범례를 나타내는 부분
 - legend의 세부사항들을 조정할 수 있음
+
+## Reference
+[matplotlib](https://matplotlib.org/3.1.1/gallery/showcase/anatomy.html)
