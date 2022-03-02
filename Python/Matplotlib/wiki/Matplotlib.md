@@ -3,7 +3,7 @@
 ## Anatomy of Figure
 `matplotlib`을 사용하다보면, 기본적인 레이아웃에 대해서 반복적으로 찾아보는 경우들이 많아진다. 좋은 그래프(좋은 시각화 자료) 제작을 위해서는 각 부분의 명칭을 알아두고 이를 편집할 수 있으면 정말 유용하다. [~~사실 본 위키는 필자의 시간을 낭비하지 않기 위한 정리글 이기도 하다~~]  
 
-<p align="center"><img src="https://user-images.githubusercontent.com/50191848/156300508-f40ab857-f3fa-4816-bb31-a44430787c92.png" alt="anatomy of figure" width="100%" height="100%"></p> 
+<p align="center"><img src="https://user-images.githubusercontent.com/50191848/156300508-f40ab857-f3fa-4816-bb31-a44430787c92.png" alt="anatomy of figure" width="50%" height="50%"></p> 
 
 ## Figure
 - 그래프를 그리는 창을 의미함
