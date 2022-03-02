@@ -9,7 +9,7 @@
   * [Numpy APIs]()
 
 * Matplotlib
-  * [Matplotlib](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/Matplotlib.md)
+  * [anatomy of figure](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/anatomy_of_figure.md)
 
 * Plotly
   * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
