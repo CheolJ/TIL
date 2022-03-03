@@ -12,6 +12,7 @@
   * [anatomy of figure](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/anatomy_of_figure.md)
   * [figure and axes](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/figureandaxes.md)
   * [subplots](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/figureandaxes2-subplots.md)
+  * [subplot2grid](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/subplot2grid.md)
 
 * Plotly
   * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
@@ -29,6 +30,7 @@
   * [XGboost]()
   * [LightGBM]()
   * [Catboost]()
+
 
 ## ETC
 * [Latex]()
