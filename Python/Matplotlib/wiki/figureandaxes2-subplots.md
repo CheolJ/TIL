@@ -30,7 +30,8 @@ fig, (ax1, ax2) = plt.subplots(2, 1,
 ```
 
 ## plt.subplots(Indexing 2-D Axes)
-`subplots`을 사용해 2Dimensions 생성하는 경우 배열의 접근방법이 달라진다. 이전의 `add_subplots`을 사용해 `axes`를 작성한 경우, 러프한 접근이 가능했지만, `subplots`로 만들어진 axes에는 러프한 접근이 불가능하다. 또한, `numpy.array`로 저장되기 때문에, 반복문을 통해 접근시에 불편함이 존재한다.
+`subplots`을 사용해 2Dimensions 생성하는 경우 배열의 접근방법이 달라진다. 이전의 `add_subplots`을 사용해 `axes`를 작성한 경우, 러프한 접근이 가능했지만, `subplots`로 만들어진 axes에는 러프한 접근이 불가능하다. 또한, `numpy.array`로 저장되기 때문에, 반복문을 통해 접근시에 불편함이 존재한다.  
+반복문에서 axes를 핸들링할 때는, `enumerate`를 필요에 따라 사용하기도 한다.
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -46,7 +47,7 @@ print(axes[0, 0])
 print(axes[0, 1])
 ```
 `Code output`
-<p align="center"><img src="https://user-images.githubusercontent.com/50191848/156508298-ea46a91f-1601-4cd2-a3bf-1a56f4fd1df4.png" alt="code output" width="100%" height="100%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/50191848/156508298-ea46a91f-1601-4cd2-a3bf-1a56f4fd1df4.png" alt="code output" width="90%" height="90%"></p>
 
 
 ## Reference
