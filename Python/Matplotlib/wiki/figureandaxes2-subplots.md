@@ -1,4 +1,4 @@
-## Figure and Axes - subplots
+# Figure and Axes - subplots
 이전에 `matplotlib.pyplot.figure`와 `fig.subplot`을 통해 그래프를 세팅했었는데, `matplotlib.pyplot.subplots`를 통해 한번에 세팅할 수 있다. 또한, axes들이 `numpy.array`형태로 저장되기 때문에, 접근성이나 데이터 처리에도 이전 방법보다 더 유용한 장점이 있다.
 
 
