@@ -7,7 +7,7 @@
 ```python
 matplotlib.pyplo.subplot2grid(shape, loc, rowspan=1, colspan=1, fig=None, **kwargs)
 ```
-`doc comments`  
+`parameter`  
 <b>shape</b>: (int, int)  
 - Number of rows and of columns of the gird in which to place axis.  
 
