@@ -66,3 +66,7 @@ plt.show()
 ```
 `code output`
 <p align="center"><img src="https://user-images.githubusercontent.com/50191848/156690065-622fcb3e-b442-4abf-915e-9e1a97fcb489.png" alt="code output" width="50%" height="50%"></p>
+
+## Reference
+[matplotlib.pyplot.figure.add_axes](https://matplotlib.org/3.5.1/api/figure_api.html)  
+[공대형아-데이터시각화과정](https://www.inflearn.com/course/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%8B%9C%EA%B0%81%ED%99%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC)
