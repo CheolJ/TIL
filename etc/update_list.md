@@ -4,6 +4,7 @@
 ## Update List
 * Github 사용법
   * [Git이란 무엇인가]()
+  * [Gitignore]() - 완료
 * Pycharm 사용법
   * [Pycharm 실행]()
 * VScode 사용법
@@ -13,6 +14,7 @@
 * C++
 * Kubeernetis
 * Markdown
+  * [Latex]
 * pyqt5
     * [Pyqt - readme]()
     * 
