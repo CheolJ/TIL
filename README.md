@@ -1,30 +1,33 @@
 # Today I Learned(TIL) Wiki
 
 ## Python
-* Numpy
+### Numpy
   * [객체와 ndarray]()
   * [ndarray]()
   * [Broadcasting]()
   * [Indexing and Slicing]()
   * [Numpy APIs]()
 
-* Matplotlib
+### Matplotlib
+#### Making Figures
   * [anatomy of figure](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/anatomy_of_figure.md)
   * [figure and axes](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/figureandaxes.md)
+#### Axes Customizing
   * [subplots](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/figureandaxes2-subplots.md)
   * [subplot2grid](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/subplot2grid.md)
   * [add_axes](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/addaxes.md)
   * [axes cusotmize](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axescustomize.md)
   * [xlim and ylim](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/xlimylim.md)
   * [axis sharing](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axis_sharing.md)
+  * [twinx and axis scale](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/twinxandaxisscale.md)
 
-* Plotly
+### Plotly
   * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
 
-* Pyinstaller
+### Pyinstaller
   * [How to use](https://github.com/CheolJ/TIL/blob/main/Python/pyinstaller.md)
 
-* GUI
+### GUI
   * [gui-how i studied making gui with python](https://github.com/CheolJ/TIL/blob/main/Python/gui/gui.md)
   * tkinter
     * [menu](https://github.com/CheolJ/TIL/blob/main/Python/gui/wiki/menu.md)
