@@ -19,7 +19,8 @@
   * [axes cusotmize](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axescustomize.md)
   * [xlim and ylim](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/xlimylim.md)
   * [axis sharing](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axis_sharing.md)
-  * [twinx and axis scale](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/twinxandaxisscale.md)
+  * [twinx](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/twinx.md)
+  * [axis scale](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axis_scale.md)
 * Titles, Labels and Font Dict
   * [something]()
 
