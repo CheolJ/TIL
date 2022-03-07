@@ -15,6 +15,8 @@
   * [subplot2grid](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/subplot2grid.md)
   * [add_axes](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/addaxes.md)
   * [axes cusotmize](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axescustomize.md)
+  * [xlim and ylim](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/xlimylim.md)
+  * [axis sharing](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axis_sharing.md)
 
 * Plotly
   * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
