@@ -1,25 +1,16 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
-fig, ax = plt.subplots(figsize=(7, 7))
-ax.set_title('Title!', fontsize=20)
-ax.set_xlabel('X label', fontsize=15)
-ax.set_ylabel('Y label', fontsize=15)
+fig = plt.figure(figsize=(12, 13))
 
-plt.show()
+axes_g1 = np.empty(shape=(0,))
+main = plt.subplot2grid((5,4), (0,0), 2, 2, fig=fig)
 
-title_list = ['Ax' + str(i) for i in range(4)]
-xlabel_list = ['X label ' + str(i) for i in range(4) ]
-ylabel_list = ['Y label ' + str(i) for i in range(4) ]
+axes_g1 = np.append(axes_g1, main)
+for r_idx in range(2, 2 + 3):
+    for c_idx in range(2):
+        ax = plt.subplot2grid((5,4), (r_idx, c_idx), fig=fig)
+        axes_g1 = np.append(axes_g1, ax)
 
-fig, axes = plt.subplots(2, 2, figsize=(10, 10))
-for ax_idx, ax in enumerate(axes.flat):
-    ax.set_title(title_list[ax_idx], fontsize=30)
-    ax.set_xlabel(xlabel_list[ax_idx], fontsize=20)
-    ax.set_ylabel(ylabel_list[ax_idx], fontsize=20)
-
-
-#fig.tight_layout()
-
-#fig.subplot_adjust()
-
-plt.show()
+axes_g1 = axes_g1.reshape(1,-1)
+print(axes_g1.shape)
