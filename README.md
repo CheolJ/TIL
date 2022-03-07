@@ -9,10 +9,10 @@
   * [Numpy APIs]()
 
 ### Matplotlib
-#### Making Figures
+* Making Figures
   * [anatomy of figure](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/anatomy_of_figure.md)
   * [figure and axes](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/figureandaxes.md)
-#### Axes Customizing
+* Axes Customizing
   * [subplots](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/figureandaxes2-subplots.md)
   * [subplot2grid](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/subplot2grid.md)
   * [add_axes](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/addaxes.md)
@@ -20,6 +20,8 @@
   * [xlim and ylim](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/xlimylim.md)
   * [axis sharing](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axis_sharing.md)
   * [twinx and axis scale](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/twinxandaxisscale.md)
+* Titles, Labels and Font Dict
+  * [something]()
 
 ### Plotly
   * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
