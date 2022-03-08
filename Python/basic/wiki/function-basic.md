@@ -64,3 +64,87 @@ func(*data)
 **3) 함수가 어떤 기능을 동작하는지** 
 
 `docstring` 작성은 함수 바로 아래에, `"docstring"` (여러줄 작성시에는 `"""docstring"""`) 형태로 작성하면 된다.
+
+## Scope
+함수 밖에서 선언되는 변수(`global variable`)와 함수 안에서 선언되는 변수(`local variable`)의 변수 범위는 다르다.
+
+## Inner Function
+- 지역영역 안에 선언된 함수 (함수 안에 선언된 함수)
+```python
+def outer(a, b):
+    def inner(c,d):
+        return c+d
+
+    return inner(a,b)
+
+outer(1, 2)
+```
+
+## Callback
+- 함수를 argument parameter로서 활용하는 것
+- callback을 통해서 함수간의 호출을 용이하게 할 수 있음.
+```python
+def clac(func, a, b):
+    return func(a, b)
+
+def plus(a,b):
+    return a+b
+
+def minus(a,b):
+    return a-b
+```
+
+## `lambda` function
+- 파라미터를 간단한 계산으로 리턴되는 함수: 삼항연산
+
+## `filter`
+- 리스트 데이터에서 특정 조건에 맞는 value만 남기는 함수
+
+## `reduce`
+- 리스트 데이터를 처음부터 순서대로 특정 함수를 실행하여 결과를 누적시켜 주는 함수
+- `from functools import reduce`를 통해 import 후 사용
+
+## `Decolator`
+- 코드를 바꾸지 않고, 기능을 추가하거나 수정하고자할 때 사용
+- 반복되는 코드를 쓸 수 밖에 없는 구조에서 `decolator`를 사용하게 되면 반복되는 코드를 줄일 수 있어, 가독성을 높일 수 있음.
+
+### before using decolator
+  ```python
+# a 
+def plus(a, b):
+    print("start")                                # code 1
+    result = a + b                                # code 2
+    print("result : {}".format(result))           # code 3
+    return result
+
+# b
+def minus(a, b):
+    print("start")                                # code 1
+    result = a - b                                # code 4
+    print("result : {}".format(result))           # code 3
+    return result
+```
+### using decolator
+```python
+# c
+def disp(func):
+    
+    def wrapper(*args, **kwargs):
+        print("start")                          # code 1
+        result = func(*args, *kwargs)           # code 2, 4
+        print("result : {}".format(result))     # code 3
+        
+    return wrapper
+
+@disp
+def plus(a, b):
+    result = a + b                              # code 2
+    return result
+
+@disp
+def minus(a, b):
+    result = a - b                              # code 4
+    return result
+
+plus(1, 2)
+```
