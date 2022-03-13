@@ -1,6 +1,9 @@
 # Today I Learned(TIL) Wiki
 
 ## Python
+### Basic
+  * [function](https://github.com/CheolJ/TIL/blob/main/Python/basic/wiki/function-basic.md)
+
 ### Numpy
   * [객체와 ndarray]()
   * [ndarray]()
