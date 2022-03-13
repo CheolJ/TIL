@@ -25,7 +25,8 @@
   * [twinx](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/twinx.md)
   * [axis scale](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/axis_scale.md)
 * Titles, Labels and Font Dict
-  * [something]()
+  * [title](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/title.md)
+  * [text](https://github.com/CheolJ/TIL/blob/main/Python/Matplotlib/wiki/text.md)
 
 ### Plotly
   * [active graph](https://github.com/CheolJ/TIL/blob/main/Python/plotly/wiki/zoominandout.md)
