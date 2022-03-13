@@ -22,3 +22,7 @@ matplotlib.pyplot.text(x, y, s, fontdict=None, **kwargs)
 
 **vertical alignment, va** : {'top', 'center', 'bottom', 'baseline'}, default: top  
 - The vertical alignment of the text relative to (x, y).
+
+
+## Reference
+[matplotlib.pyplot.text](https://matplotlib.org/3.5.1/api/_as_gen/matplotlib.pyplot.text.html#examples-using-matplotlib-pyplot-text)
