@@ -2,12 +2,8 @@
 
 ## Python
 ### Basic
-<<<<<<< Updated upstream
   * [function](https://github.com/CheolJ/TIL/blob/main/Python/basic/wiki/function-basic.md)
-
-=======
   * [Class]()
->>>>>>> Stashed changes
 ### Numpy
   * [객체와 ndarray]()
   * [ndarray]()
