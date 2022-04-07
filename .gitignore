@@ -1,8 +1,9 @@
 # ignore all files in any directory named venv
 venv/
 
-# ignore all files in any directory named dataset
+# ignore all files in any directory named dataset, data
 datset/
+data/
 
 # ignore .DS_Store
 .DS_Store
