@@ -6,13 +6,13 @@
 ### Definition
 함수 $f(x)$가 $a \in R$에서 미분이 가능할 때, 다항함수로 근사한 식을 `테일러 급수(Taylor seires)`라고 부른다.
 
-$T_f(x) = \displaystyle\sum_{n=0}^{\infin}{(x-a)^n}=f(a) + f'(a)(x-a) + {1\over2!}f''(a)(x-a)^2 + {1\over3!}f'''(a)(x-a)^3 + \cdots + {1\over n!}f^{(n)}(x-a)^n$  
+$T_f(x) = \displaystyle\sum_{n=0}^{\infty}{(x-a)^n}=f(a) + f'(a)(x-a) + {1\over2!}f''(a)(x-a)^2 + {1\over3!}f'''(a)(x-a)^3 + \cdots + {1\over n!}f^{(n)}(x-a)^n$  
 
 ### `MacLaurin series`
 간단한 삼각함수는 MacLaurin Series를 통해 표현할 수 있고, 원래 식과 매우 유사하다는 것을 계산과 여러 증명을 통해 알 수 있다. 
 #### Definition
 $a=0$일 때의 테일러 급수를 매클로린급수라고 부른다.  
-$M_f(x) = \displaystyle\sum_{n!}^{\infin}{f(0)+f'(0)x + {1 \over 2!}f''(0)x^2 + {1 \over 3!}f'''(0)x^3 + \cdots + {1 \over n!}f^{(n)}x^n}$
+$M_f(x) = \displaystyle\sum_{n!}^{\infty}{f(0)+f'(0)x + {1 \over 2!}f''(0)x^2 + {1 \over 3!}f'''(0)x^3 + \cdots + {1 \over n!}f^{(n)}x^n}$
 
 ### `Analytic Function`
 #### Definition
@@ -21,14 +21,14 @@ $M_f(x) = \displaystyle\sum_{n!}^{\infin}{f(0)+f'(0)x + {1 \over 2!}f''(0)x^2 + 
 ### `Laurant series`
 #### Definition
 테일러 급수(Talyor series)의 범위를 실수 범위에서 복소수 범위까지 확장시킨 함수를 로랑급수(Laurant series)라고 한다.  
-$f_z(x) = \displaystyle\sum_{n=0}^{\infin}{c_z(z-z_0)^n}$
+$f_z(x) = \displaystyle\sum_{n=0}^{\infty}{c_z(z-z_0)^n}$
 
 #### holomorphic function
 복소 범위에서 미분가능(정칙), 해석가능한 함수를 정칙함수로 정의한다. 다시말해, `일반적으로 복소함수가 미분가능(정칙)하면, 반드시 로랑급수가 원래 함수와 같아진다` 라고 얘기할 수 있다
 
 ## Euler equation
 
-## Fourie series
+## Fourier series
 
 ### prove
 
