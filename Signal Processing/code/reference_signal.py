@@ -137,9 +137,12 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
     for gri_m, gri_s in pci:
         
         # Generate Reference signal
+        
         timespace_m, master_window, master_window_e = gen_master_signal(gri_m)
         timespace_s, slave_window, slave_window_e = gen_slave_signal(gri_s)
-        
+        print()
+        print()
+
         for station, ed, amp in zip(sending_station, emission_delays, amp_ratio):
             
             # status check
@@ -170,18 +173,18 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
                 
                 time_interval = end_time-start_time
                 
-                temp = np.linspace(start_time, end_time, int(10*(time_interval))+1)
-                temp_signal = np.zeros(shape=(int(10*time_interval)+1, ))
+                temp = np.linspace(start_time, end_time, int(100*(time_interval))+1)
+                temp_signal = np.zeros(shape=(int(100*time_interval)+1, ))
+                
                 print("shape of temp :", temp.shape, "shape of temp_signal :", temp_signal.shape)
                 
-                timespace = np.append(timespace, temp[1:])
+                timespace = np.append(timespace, temp[1:]) 
                 signal = np.append(signal, temp_signal[1:])
                 signal_e = np.append(signal_e, temp_signal[1:])
                 
                 print("length of timespace :", len(timespace), "|| length of signal :", len(signal), "|| length of signal_e :", len(signal_e))
                 
                 start_time = end_time
-                print(start_time)            
                 temp = start_time + timespace_s
                 
                 amp_slave_window = amp * slave_window
@@ -194,18 +197,28 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
                 start_time = timespace[-1]
                 print("length of timespace :", len(timespace), "|| length of signal :", len(signal), "|| length of signal_e :", len(signal_e))
                 print("slave process over; start_time :", start_time)
+                print("last time :", timespace[-1], "last -1 time :", timespace[-2])
                 print()
         
         end_time = standard_time + id*10
         time_interval = end_time - start_time
-        temp = np.linspace(start_time, end_time, int(10*time_interval+1))
-        temp_signal = np.zeros(shape=(int(10*time_interval+1), ))
+        temp = np.linspace(start_time, end_time, int(100*time_interval+1))
+        temp_signal = np.zeros(shape=(int(100*time_interval+1), ))
         
         timespace = np.append(timespace, temp[1:])
         signal = np.append(signal, temp_signal[1:])
         signal_e = np.append(signal_e, temp_signal[1:])
         
         standard_time = end_time + 1
+        print()
+        
+        print("iteration over")
+        print("--------------------------------------------------")
+        print("length of timespace :", len(timespace), "|| length of signal :", len(signal), "|| length of signal_e :", len(signal_e))
+        print()
+        print("last time :", timespace[-1], "last -1 time :", timespace[-2])
+        print()
+        
         
     return timespace, signal, signal_e, id_chain
 
