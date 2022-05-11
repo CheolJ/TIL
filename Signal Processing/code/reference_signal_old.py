@@ -13,7 +13,7 @@ pci = [[gri_a_m, gri_a_s], [gri_b_m, gri_b_s]]
 id_list = [7430, 8390, 9930]
 
 
-def gen_master_signal(phase_code=['+', '+', '+', '+', '+', '+', '+', '+', '+', '+']):
+def gen_master_window(phase_code=['+', '+', '+', '+', '+', '+', '+', '+', '+', '+']):
     
     freq = 100e3
     tau = 0
@@ -24,7 +24,7 @@ def gen_master_signal(phase_code=['+', '+', '+', '+', '+', '+', '+', '+', '+', '
 
     for i, pc in zip(range(0, 10), phase_code):
         
-        t = np.linspace(tau, tau+1000, 100001)
+        t = np.linspace(tau, tau+1000, 10001)
         
         if pc == '+':
             phase = 1
@@ -34,8 +34,8 @@ def gen_master_signal(phase_code=['+', '+', '+', '+', '+', '+', '+', '+', '+', '
         
         
         if i == 8:
-            normalized_e = np.zeros(shape=(100001, ))
-            s = np.zeros(shape=(100001, ))
+            normalized_e = np.zeros(shape=(10001, ))
+            s = np.zeros(shape=(10001, ))
         
         else:
             envelope = (t-tau)**2*np.exp(-2*(t-tau)/65)
@@ -56,7 +56,7 @@ def gen_master_signal(phase_code=['+', '+', '+', '+', '+', '+', '+', '+', '+', '
     return timespace, master_window, master_window_e
         
 
-def gen_slave_signal(phase_code=['+', '+', '+', '+', '+', '+', '+', '+']):
+def gen_slave_window(phase_code=['+', '+', '+', '+', '+', '+', '+', '+']):
     
     freq = 100e3
     tau = 0
@@ -67,7 +67,7 @@ def gen_slave_signal(phase_code=['+', '+', '+', '+', '+', '+', '+', '+']):
 
     for i, pc in zip(range(0, 8), phase_code):
         
-        t = np.linspace(tau, tau+1000, 100001)
+        t = np.linspace(tau, tau+1000, 10001)
         
         if pc == '+':
             phase = 1
@@ -93,7 +93,7 @@ def gen_slave_signal(phase_code=['+', '+', '+', '+', '+', '+', '+', '+']):
     return timespace, slave_window, slave_window_e
 
 
-def gen_ref_window_by_id(id=0, amp_ratio=0):
+def merge_signal_by_id(id=0, amp_ratio=0):
     
     if id==7430:
         id_chain = '7430 China North Sea chain'
@@ -137,8 +137,8 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
     for gri_m, gri_s in pci:
         
         # Generate Reference signal
-        timespace_m, master_window, master_window_e = gen_master_signal(gri_m)
-        timespace_s, slave_window, slave_window_e = gen_slave_signal(gri_s)
+        timespace_m, master_window, master_window_e = gen_master_window(gri_m)
+        timespace_s, slave_window, slave_window_e = gen_slave_window(gri_s)
         
         for station, ed, amp in zip(sending_station, emission_delays, amp_ratio):
             
