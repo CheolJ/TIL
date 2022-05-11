@@ -144,7 +144,7 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
         print()
 
         for station, ed, amp in zip(sending_station, emission_delays, amp_ratio):
-            
+             
             # status check
             status, site = station.split('_')
             print("status, site :", status, site)
@@ -161,7 +161,7 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
                 signal = np.append(signal, amp_master_window)
                 signal_e = np.append(signal_e, amp_master_window_e)
                 
-                start_time = ed
+                start_time = standard_time + ed
                 print("length of timespace :", len(timespace), "|| length of signal :", len(signal), "|| length of signal_e :", len(signal_e))
                 print("master process over; next_start_time :", start_time)
                 print()
@@ -175,18 +175,33 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
                 
                 temp = np.linspace(start_time, end_time, int(100*(time_interval))+1)
                 temp_signal = np.zeros(shape=(int(100*time_interval)+1, ))
-                
+                print()
+                print("emission delay ; Add dummy zero signals")
+                print("----------------------------------")
+                print("start time :",start_time, "end time :", end_time)
+                print()
                 print("shape of temp :", temp.shape, "shape of temp_signal :", temp_signal.shape)
-                
+                print("last temp :", temp[-1], "last -1 temp :", temp[-2])
+                print("before last timespace :", timespace[-1], "before last -1 timespace :", timespace[-2])
+                print()
                 timespace = np.append(timespace, temp[1:]) 
                 signal = np.append(signal, temp_signal[1:])
                 signal_e = np.append(signal_e, temp_signal[1:])
-                
+                print("after last timespace :", timespace[-1], "after last -1 timespace", timespace[-2])
+                print()
                 print("length of timespace :", len(timespace), "|| length of signal :", len(signal), "|| length of signal_e :", len(signal_e))
-                
+                print()
+
                 start_time = end_time
                 temp = start_time + timespace_s
-                
+
+                print("add slave window")
+                print("----------------------------------")
+                print()
+                print("timespace_s :", timespace_s[-1], "timespace_s -1 :", timespace_s[-2])
+                print("last temp :", temp[-1], "last -1 temp :", temp[-2])
+                print()
+                print("----------------------------------")
                 amp_slave_window = amp * slave_window
                 amp_slave_window_e = amp * slave_window_e
                 
@@ -204,19 +219,28 @@ def gen_ref_window_by_id(id=0, amp_ratio=0):
         time_interval = end_time - start_time
         temp = np.linspace(start_time, end_time, int(100*time_interval+1))
         temp_signal = np.zeros(shape=(int(100*time_interval+1), ))
+
+        if standard_time == 0:
+            timespace = np.append(timespace, temp[1:-1])
+            signal = np.append(signal, temp_signal[1:-1])
+            signal_e = np.append(signal_e, temp_signal[1:-1])
         
-        timespace = np.append(timespace, temp[1:])
-        signal = np.append(signal, temp_signal[1:])
-        signal_e = np.append(signal_e, temp_signal[1:])
+        else:
+            timespace = np.append(timespace, temp[1:])
+            signal = np.append(signal, temp_signal[1:])
+            signal_e = np.append(signal_e, temp_signal[1:])
         
-        standard_time = end_time + 1
+        standard_time = end_time
+        
         print()
-        
         print("iteration over")
         print("--------------------------------------------------")
-        print("length of timespace :", len(timespace), "|| length of signal :", len(signal), "|| length of signal_e :", len(signal_e))
         print()
         print("last time :", timespace[-1], "last -1 time :", timespace[-2])
+        print("standard_time :", standard_time)
+        print("length of timespace :", len(timespace), "|| length of signal :", len(signal), "|| length of signal_e :", len(signal_e))
+        print()
+        print("--------------------------------------------------")
         print()
         
         
