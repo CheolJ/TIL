@@ -13,3 +13,6 @@ data/
 
 # ignore all files in any directory named catboost
 *catboost*/
+
+# ignore all files in any directory named __pycache__
+__pycache__
